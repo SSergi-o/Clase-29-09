@@ -1,5 +1,10 @@
 # Clase-29-09
-# Integrantes: Sergio Guachalla
+# Integrantes:
+ * Campero José
+ * Campohermoso Oscar
+ * Fernández-Dávila Sergio
+ * Barroso Marino
+ * Guachalla Sergio
 #Juego de Pong
 - Se accede al DOM mediante " var canvas = document.getElementById('canvas');" 
 - El primer event listener es para la tecla de espacio, esto inicia el juego ya que cambia el gameState a 1.
