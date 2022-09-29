@@ -4,7 +4,7 @@
     </head>
     <body>
         <div style="text-align: center; padding-top: 6em;">
-            <h1 style="color:skyblue">Bienvenido al UCB pong</h1>
+            <h1 style="color:skyblue ">Bienvenido al UCB pong</h1>
             <canvas id="canvas" style="background-color:#1b1b1b">
                 Your browser doesn't support Canvas, try another or update
             </canvas>
@@ -49,11 +49,11 @@ document.addEventListener('keyup', function (e) {
 
 function input() {
     
-    if (38 in keys) { //If the up arrow key is pressed
+    if (38 in keys) { //Si la flecha de arriba se presiona
         if (player1.y - player1.gravity > 0) {
             player1.y -= player1.gravity;
         }
-    } else if (40 in keys) { //If the down arrow key is pressed
+    } else if (40 in keys) { //Si la flecha de abajo se presiona
         if (player1.y + player1.height + player2.gravity < canvas.height) {
             player1.y += player1.gravity;
         }
